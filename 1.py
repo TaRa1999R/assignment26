@@ -24,4 +24,5 @@ for repeat in range (8) :
         turn = 1
 
 cv2.imshow ("result 1", img_black)
+cv2.waitKey ()
 cv2.imwrite ("1_output.jpg" , img_black)

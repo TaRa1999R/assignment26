@@ -18,4 +18,5 @@ for row in range (150 , 250) :
     triangle -= 1
 
 cv2.imshow ("result 6" , black_image)
+cv2.waitKey ()
 cv2.imwrite ("6_output.jpg" , black_image)
