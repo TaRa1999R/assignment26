@@ -3,16 +3,16 @@ import cv2
 
 image_in = cv2.imread ("6_input.jpg")
 black_image = cv2.cvtColor (image_in , cv2.COLOR_BGR2GRAY)
-begin = 100
-end = 150
-for row in range (100) :
+begin = 150
+end = 250
+for row in range (150) :
     for colomn in range (begin , end) :
         black_image[row][colomn] = 0
     begin -= 1
     end -= 1
 
-triangle = 50
-for row in range (100 , 150) :
+triangle = 100
+for row in range (150 , 250) :
     for colomn in range (0 , triangle ) :
         black_image[row][colomn] = 0
     triangle -= 1
