@@ -1,3 +1,5 @@
+  ** ASSIGNMENT 26 OUTPUTS **
+
 26-1. Chess Board
 
 ![Alt text](1_output.jpg)
